@@ -1,12 +1,12 @@
 import React from 'react';
 import Timer from './Timer/Timer';
-import moment from 'moment';
+
+import './App.css';
 
 const App = () => {
   return (
-    <Timer timeDateGoal={moment("2019-01-18T22:06:07")} />
+    <Timer timeDateGoal={'2019-01-18T22:06:07'} />
   );
-}
+};
 
 export default App;
-
